@@ -12,7 +12,6 @@ describe "Landing page" do
   end
 
   it "displays the restaurant name in the header of the page" do
-    skip
     header = page.find('html body header')
     header.text.wont_equal ''
   end
