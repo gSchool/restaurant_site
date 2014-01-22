@@ -35,7 +35,6 @@ describe "Landing page" do
   end
 
   it "displays the restaurant address in the footer" do
-    skip
     address = page.find('html body footer address')
     address.text.wont_equal ''
   end
