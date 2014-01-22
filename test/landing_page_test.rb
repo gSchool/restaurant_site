@@ -51,7 +51,6 @@ describe "Landing page" do
   end
 
   it "displays an image of the restaurant" do
-    skip
     image = page.find('html body main img')
     image[:src].wont_be_nil
     image[:src].must_match /images\//
