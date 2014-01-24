@@ -15,12 +15,10 @@
 
   <p>Great food, great atmosphere!</p>
   <img src="../images/capri.png">
-  <ul>
-    <li>Salad</li>
-    <li>Quinoa and veggies</li>
-    <li>Veggie Burger</li>
-    <li>Paleo Dish</li>
-    <li>Treat for your dog!</li>
+  <ul><h1>Menu Items:</h1>
+    <% ["Salad", "Quinoa and veggies", "Veggie Burger", "Paleo Dish", "Treat for your dog!"].each do |item| %>
+        <li><%= item %></li>
+    <% end %>
   </ul>
 </main>
 <footer>
