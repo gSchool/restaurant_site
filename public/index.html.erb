@@ -16,7 +16,7 @@
   <p>Great food, great atmosphere!</p>
   <img src="../images/capri.png">
   <ul><h1>Menu Items:</h1>
-    <% ["Salad", "Quinoa and veggies", "Veggie Burger", "Paleo Dish", "Treat for your dog!"].each do |item| %>
+    <% Menu.new('config/menu.txt').items.each do |item| %>
         <li><%= item %></li>
     <% end %>
   </ul>
