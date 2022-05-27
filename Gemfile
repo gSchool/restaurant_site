@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby '2.1.1'
 
-gem 'rack', '~> 1.5.2'
+gem 'rack', '~> 1.6.13'
 
 group :test do
   gem 'launchy', '~> 2.3.0'
